@@ -1,0 +1,21 @@
+---
+title: "Introduction to Git & Hacktoberfest Study Jam"
+permalink: "/"
+layout: base
+---
+
+
+<h1 class='title'>Introduction to Git & Hacktoberfest Study Jam</h1>
+
+<div class="attendees">
+    Attendees of the workshop
+</div>
+
+<div class="attendees-list">
+    {% for post in site.attendees %}
+        <div>
+            <img src="https://www.github.com/{{ post.username }}.png"></img>
+            <h1>{{ post.name }}</h1>
+        </div>
+    {% endfor %}
+</div>
