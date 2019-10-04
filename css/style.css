@@ -26,3 +26,35 @@ body {
     border-radius: 50px;
     margin-bottom: 30px;
 }
+
+.attendees-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.attendee-card {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border: 2px solid #aaa;
+    transition: .2s;
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.attendee-card:hover {
+    border: 2px solid #444;
+}
+
+.attendee-card img {
+    width: 150px;
+    border-radius: 100px;
+}
+
+.attendee-card h1 {
+    margin: 20px 0;
+    text-align: center;
+}

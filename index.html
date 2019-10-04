@@ -12,10 +12,11 @@ layout: base
 </div>
 
 <div class="attendees-list">
-    {% for post in site.attendees %}
-        <div>
-            <img src="https://www.github.com/{{ post.username }}.png"></img>
+    {% for post in site.posts %}
+        <a href='https://www.github.com/{{ post.github_id }}' target="_blank" class='attendee-card'>
+            <img alt="{{ post.name }}'s profile image'" src="https://www.github.com/{{ post.github_id }}.png"></img>
             <h1>{{ post.name }}</h1>
-        </div>
+            {{ post.content }}
+        </a>
     {% endfor %}
 </div>
