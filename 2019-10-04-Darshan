@@ -1,6 +1,6 @@
 ---
 Name: "Darshan Devendra Hande"
-git_hub id:"darshanhande11"
+github_id:"darshanhande11"
 ---
 Hi! to begin with i love coding and would love to explore more in this field.
 I feel Git Hub is a good platform to store my projects and codes.
