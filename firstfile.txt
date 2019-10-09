@@ -1,5 +1,5 @@
-int a,b,c;
-printf("enter two no.");
-scanf("%d%d",&a,&b);
-c = a-b;
-printf("subtraction is %d"c);
+char v,d;
+printf("helo guys ");
+scanf("%c",&v);
+printf("do again");
+printf("or go ahead");
