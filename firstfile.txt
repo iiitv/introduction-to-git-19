@@ -1,5 +1,5 @@
 int a,b,c;
 printf("enter two no.");
 scanf("%d%d",&a,&b);
-c = a+b;
-printf("addition is %d"c);
+c = a-b;
+printf("subtraction is %d"c);
