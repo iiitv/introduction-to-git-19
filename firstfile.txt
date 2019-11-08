@@ -1,0 +1,5 @@
+char v,d;
+printf("helo guys ");
+scanf("%c",&v);
+printf("do again");
+printf("or go ahead");
